@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-image: url("../Yeni klasör/snow.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.hour{
+    width: 150px;
+    height: 150px;
+    z-index: 1;
+    color: aliceblue; 
+    text-align: center;
+}
+p{
+    color: #1d3557;
+    font-size: 100px;
+}
+span{
+    color: #b5838d;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.minute{
+    width: 150px;
+    height: 150px;  
+    z-index: 1;
+    color: aliceblue;
+    text-align: center;
+}
+.second{
+    width: 150px;
+    height: 150px;   
+    z-index: 1;
+    color: aliceblue; 
+    text-align: center;
+
+}
+.days{
+    width: 150px;
+    height: 150px;  
+    z-index: 1;
+    color: aliceblue;
+    text-align: center;
+}
+.wrapper{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 15% auto;
+}
+h2{
+    position: absolute;
+    top: 0;
+    text-align: center;
+    font-size: xx-large;
+    font-weight:600 ;
+    z-index: 1;
+}
